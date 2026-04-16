@@ -2,7 +2,7 @@
   "name": "newportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JadenAntM.github.io/JadenMooreWebsite",
+  "homepage": "https://jadenantm.github.io/JadenMooreWebsite",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
