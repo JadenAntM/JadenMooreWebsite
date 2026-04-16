@@ -118,7 +118,7 @@ const HeroSection = () => {
                 View My Work
               </Link>
               <a
-                href="/resume.pdf"
+                href="/JadenMooreWebsite/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-gray-100 dark:bg-[#1C1C1E] text-[#1D1D1F] dark:text-[#F5F5F7] text-sm font-medium rounded-full hover:bg-gray-200 dark:hover:bg-[#2C2C2E] transition-colors"
