@@ -18,7 +18,13 @@ const projects = [
     title: "Load Bidding Automation",
     description:
       "Developed Python bots to fully automate TFI International’s load bidding process, replacing a manual, repetitive workflow with a high-speed automation. By drastically reducing response times for time-sensitive bids, the system enabled the company to secure 3x more loads in highly competitive markets. This automation saved Operations Coordinators 10+ hours per week and reduced annual costs by an estimated $25,000, allowing the team to focus on high-priority logistics rather than manual data entry.",
-    tags: ["Python", "Selenium", "REST APIs", "CI/CD", "WindowsTask Scheduler"],
+    tags: [
+      "Python",
+      "Selenium",
+      "REST APIs",
+      "CI/CD",
+      "Windows Task Scheduler",
+    ],
     type: "Professional",
     featured: false,
     github: "https://github.com/JadenAntM",
