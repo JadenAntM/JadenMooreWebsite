@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
+import { prefix } from "../utils/prefix";
+
 const links = [
   { label: "Experience", href: "#experience" },
   { label: "Education", href: "#education" },
@@ -34,7 +36,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
-          href="/"
+          href={`${prefix}/`}
           className="text-xl font-semibold text-[#1D1D1F] dark:text-[#F5F5F7] tracking-tight"
         >
           Jaden<span className="text-blue-600">.</span>

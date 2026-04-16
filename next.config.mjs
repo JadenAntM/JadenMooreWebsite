@@ -4,10 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // If your repository is not the root domain (username.github.io),
-  // you must include the repository name here:
+  // This must match your repository name
   basePath: "/JadenMooreWebsite",
-  trailingSlash: true,
+  assetPrefix: "/JadenMooreWebsite/",
 };
 
 export default nextConfig;

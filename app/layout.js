@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Software Engineering student at McMaster University. Experienced in fullstack development, automation, and AI/ML.",
   icons: {
-    icon: "/JFavicon.png",
+    icon: "/JadenMooreWebsite/JFavicon.png",
   },
 };
 

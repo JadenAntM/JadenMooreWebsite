@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { prefix } from "../utils/prefix";
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
@@ -16,13 +17,13 @@ const BACK = { x: 38, y: 52, rotate: 6, scale: 0.92, opacity: 0.88 };
 const photos = [
   {
     id: "professional",
-    src: "/NewProfessionalHeadshot.jpeg",
+    src: `${prefix}/NewProfessionalHeadshot.jpeg`,
     alt: "Jaden Moore — Professional",
     priority: true,
   },
   {
     id: "vacation",
-    src: "/VACArofessionalHeadshot.jpeg",
+    src: `${prefix}/VACArofessionalHeadshot.jpeg`,
     alt: "Jaden Moore",
     priority: false,
   },
@@ -118,7 +119,7 @@ const HeroSection = () => {
                 View My Work
               </Link>
               <a
-                href="/JadenMooreWebsite/resume.pdf"
+                href={`${prefix}/resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-gray-100 dark:bg-[#1C1C1E] text-[#1D1D1F] dark:text-[#F5F5F7] text-sm font-medium rounded-full hover:bg-gray-200 dark:hover:bg-[#2C2C2E] transition-colors"
