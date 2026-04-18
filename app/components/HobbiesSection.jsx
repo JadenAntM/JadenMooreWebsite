@@ -7,7 +7,7 @@ const hobbies = [
     emoji: "🎣",
     title: "Fishing",
     description:
-      "Early mornings on the water are the best way to reset. Helps clear my head and relax.",
+      "Growing up in Nova Scotia, fishing has always been a part of my life. I go fishing whenever I can and it's a great way to relax and hang out with friends.",
     color: "from-sky-50 to-blue-50 dark:from-sky-900/10 dark:to-blue-900/10",
     accent: "text-sky-600 dark:text-sky-400",
     border: "border-sky-100 dark:border-sky-900/30",
@@ -16,7 +16,7 @@ const hobbies = [
     emoji: "⛳",
     title: "Golf",
     description:
-      "Nothing beats a round of golf with friends during the summer.",
+      "I recently picked up golf and it helps me stay active and enjoy the outdoors throughout the warmer months.",
     color:
       "from-green-50 to-emerald-50 dark:from-green-900/10 dark:to-emerald-900/10",
     accent: "text-emerald-600 dark:text-emerald-400",
